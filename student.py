@@ -1,0 +1,9 @@
+name=input("Enter Student Name: ")
+math = int(input("Math Marks: "))
+science = int(input("Science Marks: "))
+english = int(input("English Marks: "))
+obtained_marks = math + science + english
+total_marks = 300
+percentage =(obtained_marks /total_marks)*100
+print("Obtained marks =", obtained_marks)
+print("Percentage =", percentage)
